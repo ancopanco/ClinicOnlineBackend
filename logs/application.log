@@ -1,0 +1,171 @@
+2022-06-17 10:28:58.372  INFO 8416 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 8416 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-17 10:28:58.403  INFO 8416 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 10:28:59.074  INFO 8416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-17 10:28:59.121  INFO 8416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-06-17 10:28:59.708  INFO 8416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 10:28:59.718  INFO 8416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 10:28:59.718  INFO 8416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 10:28:59.897  INFO 8416 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-17 10:28:59.897  INFO 8416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1441 ms
+2022-06-17 10:29:00.198  INFO 8416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-17 10:29:00.530  INFO 8416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-17 10:29:00.592  INFO 8416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-17 10:29:00.646  INFO 8416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-17 10:29:00.846  INFO 8416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-17 10:29:00.947  INFO 8416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-17 10:29:01.364  INFO 8416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-17 10:29:01.379  INFO 8416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:29:01.680  WARN 8416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:29:02.462  INFO 8416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-17 10:29:02.478  INFO 8416 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.65 seconds (JVM running for 5.811)
+2022-06-17 10:29:26.298  INFO 8416 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-17 10:29:26.299  INFO 8416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-17 10:29:26.301  INFO 8416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-17 10:29:26.326  INFO 8416 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:30:02.781  INFO 8416 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:30:43.873  INFO 8416 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:31:14.307  INFO 8416 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:31:14.323  INFO 8416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-17 10:31:14.329  INFO 8416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-17 10:31:23.119  INFO 14000 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 14000 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-17 10:31:23.119  INFO 14000 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 10:31:23.856  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-17 10:31:23.887  INFO 14000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-06-17 10:31:24.389  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 10:31:24.389  INFO 14000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 10:31:24.389  INFO 14000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 10:31:24.520  INFO 14000 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-17 10:31:24.520  INFO 14000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1339 ms
+2022-06-17 10:31:24.721  INFO 14000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-17 10:31:24.959  INFO 14000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-17 10:31:25.006  INFO 14000 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-17 10:31:25.044  INFO 14000 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-17 10:31:25.191  INFO 14000 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-17 10:31:25.275  INFO 14000 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-17 10:31:25.623  INFO 14000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-17 10:31:25.646  INFO 14000 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:31:25.909  WARN 14000 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:31:26.642  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-17 10:31:26.649  INFO 14000 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.084 seconds (JVM running for 5.321)
+2022-06-17 10:31:47.988  INFO 14000 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-17 10:31:47.990  INFO 14000 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-17 10:31:47.991  INFO 14000 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-17 10:32:14.985  INFO 14000 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:33:46.499  INFO 14000 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:34:18.064  INFO 14000 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:34:20.529  INFO 14000 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:34:22.797  INFO 14000 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:34:24.724  INFO 14000 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:34:52.341  INFO 14000 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:34:52.341  INFO 14000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-17 10:34:52.359  INFO 14000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-17 10:34:56.777  INFO 17680 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 17680 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-17 10:34:56.787  INFO 17680 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 10:34:57.416  INFO 17680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-17 10:34:57.447  INFO 17680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-06-17 10:34:57.996  INFO 17680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 10:34:58.012  INFO 17680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 10:34:58.012  INFO 17680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 10:34:58.152  INFO 17680 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-17 10:34:58.160  INFO 17680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1323 ms
+2022-06-17 10:34:58.347  INFO 17680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-17 10:34:58.563  INFO 17680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-17 10:34:58.610  INFO 17680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-17 10:34:58.648  INFO 17680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-17 10:34:58.779  INFO 17680 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-17 10:34:58.879  INFO 17680 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-17 10:34:59.234  INFO 17680 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-17 10:34:59.250  INFO 17680 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:34:59.482  WARN 17680 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:35:00.168  INFO 17680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-17 10:35:00.184  INFO 17680 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 3.991 seconds (JVM running for 5.091)
+2022-06-17 10:35:08.565  INFO 17680 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-17 10:35:08.567  INFO 17680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-17 10:35:08.568  INFO 17680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-06-17 10:35:08.592  INFO 17680 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:35:30.507  INFO 17680 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:35:35.967  INFO 17680 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:36:29.443  INFO 17680 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:37:00.057  INFO 17680 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:37:44.553  INFO 17680 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:37:51.600  INFO 17680 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:37:56.782  INFO 17680 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:39:44.589  INFO 17680 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:39:44.605  INFO 17680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-17 10:39:44.611  INFO 17680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-17 10:39:48.050  INFO 4544 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 4544 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-17 10:39:48.050  INFO 4544 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 10:39:48.768  INFO 4544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-17 10:39:48.799  INFO 4544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-06-17 10:39:49.254  INFO 4544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 10:39:49.254  INFO 4544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 10:39:49.254  INFO 4544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 10:39:49.370  INFO 4544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-17 10:39:49.370  INFO 4544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+2022-06-17 10:39:49.554  INFO 4544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-17 10:39:49.770  INFO 4544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-17 10:39:49.817  INFO 4544 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-17 10:39:49.839  INFO 4544 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-17 10:39:49.971  INFO 4544 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-17 10:39:50.055  INFO 4544 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-17 10:39:50.403  INFO 4544 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-17 10:39:50.425  INFO 4544 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:39:50.673  WARN 4544 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:39:51.344  INFO 4544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-17 10:39:51.359  INFO 4544 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 3.756 seconds (JVM running for 4.72)
+2022-06-17 10:40:00.003  INFO 4544 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:40:00.003  INFO 4544 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-17 10:40:00.019  INFO 4544 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-17 10:40:04.001  INFO 1980 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 1980 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-17 10:40:04.001  INFO 1980 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 10:40:04.603  INFO 1980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-17 10:40:04.634  INFO 1980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-06-17 10:40:05.275  INFO 1980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 10:40:05.290  INFO 1980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 10:40:05.290  INFO 1980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 10:40:05.422  INFO 1980 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-17 10:40:05.422  INFO 1980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1367 ms
+2022-06-17 10:40:05.629  INFO 1980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-17 10:40:05.887  INFO 1980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-17 10:40:05.930  INFO 1980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-17 10:40:05.963  INFO 1980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-17 10:40:06.077  INFO 1980 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-17 10:40:06.184  INFO 1980 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-17 10:40:06.556  INFO 1980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-17 10:40:06.563  INFO 1980 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:40:06.833  WARN 1980 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:40:07.555  INFO 1980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-17 10:40:07.564  INFO 1980 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.069 seconds (JVM running for 5.2)
+2022-06-17 10:40:22.013  INFO 1980 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-17 10:40:22.015  INFO 1980 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-17 10:40:22.017  INFO 1980 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-17 10:40:32.987  INFO 1980 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:40:37.986  INFO 1980 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:44:08.136  INFO 1980 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:44:08.152  INFO 1980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-17 10:44:08.152  INFO 1980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-17 10:44:18.693  INFO 14512 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 14512 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-17 10:44:18.693  INFO 14512 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 10:44:19.379  INFO 14512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-17 10:44:19.426  INFO 14512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-06-17 10:44:19.881  INFO 14512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 10:44:19.897  INFO 14512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 10:44:19.897  INFO 14512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 10:44:20.044  INFO 14512 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-17 10:44:20.044  INFO 14512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1288 ms
+2022-06-17 10:44:20.213  INFO 14512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-17 10:44:20.445  INFO 14512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-17 10:44:20.483  INFO 14512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-17 10:44:20.514  INFO 14512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-17 10:44:20.630  INFO 14512 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-17 10:44:20.746  INFO 14512 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-17 10:44:21.102  INFO 14512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-17 10:44:21.102  INFO 14512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-17 10:44:21.349  WARN 14512 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-17 10:44:22.035  INFO 14512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-17 10:44:22.035  INFO 14512 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 3.849 seconds (JVM running for 4.941)
+2022-06-17 10:47:50.335  INFO 14512 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-17 10:47:50.337  INFO 14512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-17 10:47:50.339  INFO 14512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-17 10:47:50.371  INFO 14512 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Finding all users.
+2022-06-17 10:48:49.952  INFO 14512 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Finding all users.
