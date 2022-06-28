@@ -24,8 +24,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "/users/{id}",method = RequestMethod.GET)
-    public User getProductById( @PathVariable("id") int id){
-        LOGGER.info("Finding product by id "+ id);
+    public User getUserById( @PathVariable("id") int id){
         return repository.findById(id).get();
     }
     @CrossOrigin(origins = "http://localhost:4200")
@@ -52,7 +51,7 @@ public class UserController {
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/registerUser",method = RequestMethod.POST)
     public User registerUser( @RequestBody PatientForm patientForm){
-        LOGGER.info(patientForm.toString());
+
         String username = patientForm.getUsername();
         String password = patientForm.getPassword();
         String email = patientForm.getEmail();
@@ -62,8 +61,12 @@ public class UserController {
         String gender = patientForm.getGender();
         String phone_number = patientForm.getPhone_number();
         String user_type = patientForm.getUser_type();
-//        LOGGER.info(username + password);
 
+        List<User> userBaza = repository.findByUsername(username);
+        if(userBaza.isEmpty() == false) return null;
+
+        userBaza = repository.findByEmail(email);
+        if(userBaza.isEmpty() == false) return null;
         User user = new User();
         user.setUsername(username);
         user.setPassword(password);
@@ -75,15 +78,5 @@ public class UserController {
 
         repository.save(user);
         return user;
-//        Patient patient = new Patient();
-//        patient.setUsername(username);
-//        patient.setPassword(password);
-//        patient.setEmail(email);
-//        patient.setFirstname(firstname);
-//        patient.setLastname(lastname);
-//        patient.setAge(age);
-//        patient.setGender(gender);
-//        patient.setPhone_number(phone_number);
-//        patient.setUser_type(user_type);
     }
 }
