@@ -51,4 +51,11 @@ public class PatientController {
         repository.save(patient);
         return patient;
     }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/patientByUsername",method = RequestMethod.POST)
+    public Patient getPatientByUsername(@RequestBody String username){
+        LOGGER.info(repository.findByUsername(username).get(0).getUsername());
+        return repository.findByUsername(username).get(0);
+    }
 }

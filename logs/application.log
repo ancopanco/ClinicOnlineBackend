@@ -1,1 +1,629 @@
 2022-06-29 00:41:03.216  WARN 4736 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m5s170ms508µs200ns).
+2022-06-29 00:48:03.453  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:03.463  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:03.472  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:05.180  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:05.189  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:05.199  INFO 4736 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:10.756  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:10.769  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:10.779  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:13.861  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:13.873  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 00:48:13.881  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 01:03:27.228  WARN 4736 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s510ms699µs200ns).
+2022-06-29 04:33:55.124  WARN 4736 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h27s472ms289µs300ns).
+2022-06-29 11:14:02.142  WARN 4736 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h38m41s444ms102µs100ns).
+2022-06-29 11:46:36.390  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:46:36.400  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:46:36.409  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:46:50.406  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : maramara123
+2022-06-29 11:46:50.803  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 11:46:50.804  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 11:57:27.373  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:57:27.383  INFO 4736 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:57:27.393  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:57:45.971  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:57:46.073  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:57:46.088  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:05.198  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:05.223  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:05.237  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:14.503  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:14.535  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:14.549  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:25.165  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:25.514  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:25.525  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:30.973  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:31.091  INFO 4736 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:31.112  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:33.135  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:33.158  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:58:33.202  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:59:27.063  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:59:27.352  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:59:27.376  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:59:41.026  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:59:41.050  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 11:59:41.087  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:06.959  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:07.001  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:07.403  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:09.608  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:09.627  INFO 4736 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:09.640  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:42.627  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:42.761  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:42.772  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:46.181  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:46.199  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:00:46.212  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:25.492  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:25.690  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:25.716  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:37.231  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:37.255  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:37.266  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:45.325  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:45.349  INFO 4736 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:45.400  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:59.375  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:59.410  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:01:59.424  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:02:24.038  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:02:24.101  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:02:24.224  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:22.915  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:23.039  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:23.083  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:34.446  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:34.479  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:34.491  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:44.554  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:44.566  INFO 4736 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:03:44.575  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:04:15.859  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:04:15.873  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:04:15.884  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:04:17.756  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:04:17.765  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:04:17.776  INFO 4736 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:14:27.372  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:14:27.391  INFO 4736 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:14:27.406  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:14:30.889  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:14:30.903  INFO 4736 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:14:30.912  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:20:42.876  INFO 4736 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:20:42.888  INFO 4736 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:20:47.105  INFO 4736 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:20:47.118  INFO 4736 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:20:47.129  INFO 4736 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 12:21:00.254  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : maramara123
+2022-06-29 12:21:00.343  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 12:21:00.343  INFO 4736 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 12:46:17.967  INFO 4736 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 12:46:18.234  INFO 4736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 12:46:18.290  INFO 4736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 12:46:28.126  INFO 6168 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 6168 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-29 12:46:28.130  INFO 6168 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 12:46:29.013  INFO 6168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 12:46:29.086  INFO 6168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2022-06-29 12:46:29.665  INFO 6168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-29 12:46:29.675  INFO 6168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-29 12:46:29.675  INFO 6168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-29 12:46:29.815  INFO 6168 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-29 12:46:29.816  INFO 6168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1620 ms
+2022-06-29 12:46:30.029  INFO 6168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 12:46:30.354  INFO 6168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 12:46:30.413  INFO 6168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 12:46:30.470  INFO 6168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 12:46:30.653  INFO 6168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 12:46:30.770  INFO 6168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-29 12:46:31.310  INFO 6168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 12:46:31.320  INFO 6168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 12:46:31.778  WARN 6168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 12:46:32.644  INFO 6168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-29 12:46:32.654  INFO 6168 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 5.15 seconds (JVM running for 6.543)
+2022-06-29 12:46:46.668  INFO 6168 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 12:46:46.671  INFO 6168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-29 12:46:46.673  INFO 6168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-29 12:47:44.078  INFO 6168 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 12:47:44.081  INFO 6168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 12:47:44.099  INFO 6168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 12:47:51.718  INFO 2276 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 2276 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-29 12:47:51.723  INFO 2276 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 12:47:52.578  INFO 2276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 12:47:52.645  INFO 2276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2022-06-29 12:47:53.289  INFO 2276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-29 12:47:53.298  INFO 2276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-29 12:47:53.298  INFO 2276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-29 12:47:53.453  INFO 2276 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-29 12:47:53.454  INFO 2276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1660 ms
+2022-06-29 12:47:53.725  INFO 2276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 12:47:54.083  INFO 2276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 12:47:54.139  INFO 2276 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 12:47:54.183  INFO 2276 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 12:47:54.347  INFO 2276 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 12:47:54.464  INFO 2276 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-29 12:47:55.010  INFO 2276 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 12:47:55.020  INFO 2276 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 12:47:55.523  WARN 2276 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 12:47:56.420  INFO 2276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-29 12:47:56.432  INFO 2276 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 5.36 seconds (JVM running for 6.847)
+2022-06-29 12:48:25.335  INFO 2276 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 12:48:25.336  INFO 2276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-29 12:48:25.339  INFO 2276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-29 12:48:25.630  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 12:49:26.752  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 12:49:46.981  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 12:49:59.559  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 12:50:20.830  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 12:57:31.572  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 12:58:02.796  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 12:58:28.987  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:02:42.241  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:03:11.731  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : maramara123
+2022-06-29 13:03:12.073  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 13:03:12.074  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 13:03:12.108  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:04:10.915  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:04:37.880  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:04:56.733  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:05:08.233  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:05:17.913  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:05:25.351  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:05:36.090  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:06:06.107  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:06:32.784  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:06:38.975  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:06:43.721  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:07:04.412  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:07:52.853  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:08:45.040  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:09:27.429  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:09:38.946  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:10:22.165  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:10:32.292  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:10:40.565  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:10:58.083  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:11:14.465  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:11:19.279  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:11:24.053  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:13:52.044  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:13:56.386  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:14:06.348  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:14:59.458  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:15:03.005  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:15:09.280  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:15:45.599  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:16:06.192  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:16:20.622  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:16:32.729  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:16:41.920  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:17:00.899  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:17:24.512  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:17:35.240  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:17:56.980  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:18:05.942  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:18:49.491  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:18:53.801  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:19:13.034  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:19:27.018  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:19:51.870  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:21:39.122  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:23:00.089  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:23:35.678  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:25:17.413  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:25:21.969  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:25:47.879  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:26:15.463  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:26:37.062  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:26:43.885  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:27:13.015  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:27:31.699  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:28:12.763  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:28:27.327  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:28:47.790  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:29:10.597  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:29:36.908  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:30:13.206  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:30:39.750  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:30:51.155  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:30:57.868  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:31:18.065  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:31:32.224  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:31:49.928  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:33:20.317  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:33:41.158  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:34:07.317  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:36:04.481  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:36:50.955  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:38:48.949  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:41:17.629  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:41:41.831  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:41:52.606  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:42:14.054  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:42:53.173  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:43:00.592  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:44:10.426  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:44:25.979  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:45:05.955  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:45:34.245  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 13:45:51.385  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:45:59.745  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:47:40.199  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:48:14.618  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:48:32.400  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:48:40.468  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:51:10.633  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 13:52:14.260  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 13:53:02.186  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:53:39.752  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:54:30.354  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:54:57.411  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:55:18.296  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:55:33.865  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:55:38.983  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 13:57:03.930  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : maramara123
+2022-06-29 13:57:04.115  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 13:57:04.116  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 13:57:04.149  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 13:57:21.870  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 13:57:27.803  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 13:57:40.170  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 13:57:58.188  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 13:58:13.926  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 13:58:30.434  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 14:00:49.475  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 14:01:25.974  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 14:02:07.992  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 14:02:18.663  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 14:02:28.713  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 14:02:34.487  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 14:02:48.637  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 14:02:53.356  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 14:03:07.678  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 14:03:18.105  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 14:03:33.381  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 14:03:43.254  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 14:04:18.536  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 14:04:21.604  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 14:04:31.360  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 14:04:37.671  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 14:04:52.407  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 14:04:58.101  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 14:06:16.008  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 14:06:53.370  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 14:07:05.468  INFO 2276 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 14:07:13.120  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 14:07:31.544  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 14:07:45.512  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 14:07:50.542  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 14:08:00.377  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 14:08:06.796  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 14:08:13.700  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 14:09:31.256  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 14:10:48.043  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 14:12:57.008  INFO 2276 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 14:13:02.004  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 14:13:20.772  INFO 2276 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 14:13:52.838  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 14:13:55.792  INFO 2276 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 14:14:07.800  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 14:14:24.451  INFO 2276 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 14:16:41.953  INFO 2276 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 14:17:00.704  INFO 2276 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 14:19:09.217  INFO 2276 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 16:48:21.156  WARN 2276 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58m55s28ms568µs600ns).
+2022-06-29 16:49:42.118  INFO 2276 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 16:50:51.664  INFO 2276 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 16:56:39.653  INFO 2276 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 16:56:39.839  INFO 2276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 16:56:39.868  INFO 2276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 16:56:50.589  INFO 9848 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 9848 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-29 16:56:50.599  INFO 9848 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 16:56:51.229  INFO 9848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 16:56:51.295  INFO 9848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+2022-06-29 16:56:51.815  INFO 9848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-29 16:56:51.823  INFO 9848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-29 16:56:51.823  INFO 9848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-29 16:56:51.936  INFO 9848 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-29 16:56:51.937  INFO 9848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2022-06-29 16:56:52.115  INFO 9848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 16:56:52.421  INFO 9848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 16:56:52.467  INFO 9848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 16:56:52.512  INFO 9848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 16:56:52.666  INFO 9848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 16:56:52.762  INFO 9848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-29 16:56:53.216  INFO 9848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 16:56:53.224  INFO 9848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 16:56:53.643  WARN 9848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 16:56:54.374  INFO 9848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-29 16:56:54.382  INFO 9848 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.284 seconds (JVM running for 5.53)
+2022-06-29 16:57:29.432  INFO 9848 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 16:57:29.434  INFO 9848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-29 16:57:29.435  INFO 9848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-29 16:57:29.521  INFO 9848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : maramara123
+2022-06-29 16:57:29.774  INFO 9848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 16:57:29.774  INFO 9848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 16:57:29.863  INFO 9848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 16:58:34.565  INFO 9848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 17:01:55.675  INFO 9848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 17:07:12.074  INFO 9848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:07:12.077  INFO 9848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 17:07:12.114  INFO 9848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 17:07:18.470  INFO 22144 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 22144 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-29 17:07:18.477  INFO 22144 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 17:07:19.115  INFO 22144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 17:07:19.171  INFO 22144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 5 JPA repository interfaces.
+2022-06-29 17:07:19.643  INFO 22144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-29 17:07:19.650  INFO 22144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-29 17:07:19.651  INFO 22144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-29 17:07:19.775  INFO 22144 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-29 17:07:19.776  INFO 22144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1246 ms
+2022-06-29 17:07:19.984  INFO 22144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 17:07:20.225  INFO 22144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 17:07:20.271  INFO 22144 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 17:07:20.316  INFO 22144 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 17:07:20.448  INFO 22144 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 17:07:20.542  INFO 22144 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-29 17:07:21.017  INFO 22144 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 17:07:21.025  INFO 22144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:07:21.421  WARN 22144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 17:07:22.200  INFO 22144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-29 17:07:22.210  INFO 22144 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.295 seconds (JVM running for 5.362)
+2022-06-29 17:07:35.526  INFO 22144 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 17:07:35.527  INFO 22144 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-29 17:07:35.529  INFO 22144 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-29 17:07:35.557  WARN 22144 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2022-06-29 17:08:42.512  WARN 22144 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2022-06-29 17:09:07.003  WARN 22144 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2022-06-29 17:09:25.478  INFO 22144 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:09:25.481  INFO 22144 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 17:09:25.501  INFO 22144 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 17:09:30.792  INFO 20540 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 20540 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-29 17:09:30.796  INFO 20540 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 17:09:31.413  INFO 20540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 17:09:31.466  INFO 20540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2022-06-29 17:09:31.931  INFO 20540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-29 17:09:31.938  INFO 20540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-29 17:09:31.938  INFO 20540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-29 17:09:32.065  INFO 20540 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-29 17:09:32.065  INFO 20540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2022-06-29 17:09:32.242  INFO 20540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 17:09:32.477  INFO 20540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 17:09:32.522  INFO 20540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 17:09:32.557  INFO 20540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 17:09:32.697  INFO 20540 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 17:09:32.810  INFO 20540 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-29 17:09:33.220  INFO 20540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 17:09:33.229  INFO 20540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:09:33.618  WARN 20540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 17:09:34.335  INFO 20540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-29 17:09:34.346  INFO 20540 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.067 seconds (JVM running for 5.156)
+2022-06-29 17:10:08.159  INFO 20540 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 17:10:08.160  INFO 20540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-29 17:10:08.162  INFO 20540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-29 17:10:08.196  WARN 20540 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2022-06-29 17:10:46.016  WARN 20540 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2022-06-29 17:15:52.927  INFO 20540 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:15:52.931  INFO 20540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 17:15:52.963  INFO 20540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 17:15:58.791  INFO 4476 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 4476 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-29 17:15:58.795  INFO 4476 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 17:15:59.406  INFO 4476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 17:15:59.459  INFO 4476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.
+2022-06-29 17:15:59.904  INFO 4476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-29 17:15:59.911  INFO 4476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-29 17:15:59.912  INFO 4476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-29 17:16:00.058  INFO 4476 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-29 17:16:00.059  INFO 4476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1203 ms
+2022-06-29 17:16:00.228  INFO 4476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 17:16:00.458  INFO 4476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 17:16:00.508  INFO 4476 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 17:16:00.545  INFO 4476 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 17:16:00.671  INFO 4476 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 17:16:00.780  INFO 4476 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-29 17:16:01.219  INFO 4476 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 17:16:01.227  INFO 4476 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:16:01.636  WARN 4476 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 17:16:02.437  INFO 4476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-29 17:16:02.446  INFO 4476 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.152 seconds (JVM running for 5.213)
+2022-06-29 17:16:31.997  INFO 4476 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 17:16:31.999  INFO 4476 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-29 17:16:32.001  INFO 4476 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-29 17:16:45.236  INFO 4476 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:16:45.239  INFO 4476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 17:16:45.253  INFO 4476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 17:16:50.729  INFO 2264 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 2264 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-29 17:16:50.733  INFO 2264 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 17:16:51.324  INFO 2264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 17:16:51.376  INFO 2264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.
+2022-06-29 17:16:51.837  INFO 2264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-29 17:16:51.845  INFO 2264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-29 17:16:51.845  INFO 2264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-29 17:16:51.971  INFO 2264 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-29 17:16:51.972  INFO 2264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2022-06-29 17:16:52.151  INFO 2264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 17:16:52.377  INFO 2264 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 17:16:52.423  INFO 2264 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 17:16:52.458  INFO 2264 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 17:16:52.560  INFO 2264 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 17:16:52.660  INFO 2264 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-29 17:16:53.090  INFO 2264 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 17:16:53.098  INFO 2264 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 17:16:53.479  WARN 2264 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 17:16:54.277  INFO 2264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-29 17:16:54.289  INFO 2264 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.114 seconds (JVM running for 5.155)
+2022-06-29 17:17:00.809  INFO 2264 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-29 17:17:00.810  INFO 2264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-29 17:17:00.812  INFO 2264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-29 17:18:22.786  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 17:18:37.992  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 17:19:42.779  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 17:20:38.613  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 17:21:07.176  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 17:21:08.127  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 17:21:25.812  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 17:23:08.734  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 17:23:28.112  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 17:24:39.902  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 17:24:40.046  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.156  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.174  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.190  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.202  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.214  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.228  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.242  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.253  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.263  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.275  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.288  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:24:40.299  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.360  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 17:25:27.456  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.508  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.528  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.564  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.579  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.594  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.608  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.624  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.643  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.659  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.676  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.691  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:25:27.713  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.673  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 17:28:01.742  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.802  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.813  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.824  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.834  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.843  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.856  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.871  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.881  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.892  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.902  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.911  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:01.920  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-29 17:28:16.599  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 17:28:20.248  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 17:29:50.706  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 17:29:50.788  WARN 2264 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:30:30.475  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 17:30:49.091  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 17:30:49.133  WARN 2264 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:30:51.932  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 17:30:51.973  WARN 2264 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:31:24.045  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 17:31:24.097  WARN 2264 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:31:45.203  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 17:31:45.264  WARN 2264 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:31:51.108  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 17:31:51.165  WARN 2264 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:32:20.493  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 17:32:20.555  WARN 2264 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:33:36.826  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 17:33:36.868  WARN 2264 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+2022-06-29 17:34:43.071  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 17:34:43.120  WARN 2264 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "id"]
+2022-06-29 17:35:16.118  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 17:35:18.958  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 17:35:43.452  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 17:35:58.413  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 17:36:07.992  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 17:36:24.242  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 17:36:58.317  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 17:37:47.810  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 17:38:00.611  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 17:41:14.694  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 17:43:07.443  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : maramara123
+2022-06-29 17:43:07.603  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 17:43:07.603  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 17:43:07.640  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 17:43:17.445  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 17:43:21.469  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 17:43:38.487  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 17:43:48.281  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 17:44:39.450  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 17:47:17.327  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 17:48:48.362  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 17:49:14.912  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 17:50:07.026  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 17:51:31.106  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 17:51:40.857  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 17:53:55.341  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 17:55:19.642  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 17:55:44.996  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 17:56:45.088  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 17:57:55.620  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 18:00:17.934  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 18:00:47.683  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 18:01:00.104  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 18:01:06.846  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 18:01:29.068  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 18:01:39.867  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 18:01:55.829  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 18:02:02.192  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 18:02:21.557  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 18:02:48.834  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 18:03:25.641  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 18:03:29.690  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 18:03:44.916  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 18:04:06.464  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 18:04:15.737  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 18:04:57.161  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 18:05:12.860  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 18:10:17.178  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 18:22:31.312  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 18:23:08.164  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 18:24:03.341  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 18:38:24.760  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : maramara123
+2022-06-29 18:38:24.864  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 18:38:24.865  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 18:38:24.894  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 18:45:21.684  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : maramara123
+2022-06-29 18:45:21.709  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 18:45:21.709  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 18:45:21.836  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-29 18:45:41.063  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 18:56:00.346  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 18:56:16.187  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 18:56:47.901  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-29 18:57:24.138  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 19:02:20.275  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-29 19:03:47.184  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 19:04:53.284  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 19:05:09.068  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 19:08:00.842  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 19:10:35.502  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 19:11:16.782  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-29 19:11:37.658  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-29 19:12:03.009  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : maramara123
+2022-06-29 19:12:03.011  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 19:12:03.012  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 19:12:03.040  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-29 19:12:27.884  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 19:12:30.515  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-29 19:14:04.624  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-29 19:14:11.896  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-29 19:14:53.923  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-29 19:15:23.611  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : sanjasanja123
+2022-06-29 19:15:23.774  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 19:15:23.774  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 19:15:40.464  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : perapera123
+2022-06-29 19:15:47.766  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : maramara123
+2022-06-29 19:15:47.769  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 19:15:47.770  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 19:16:18.634  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : maramara123
+2022-06-29 19:16:18.639  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 19:16:18.639  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 19:17:06.717  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : maramara123
+2022-06-29 19:17:06.720  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Postoji username
+2022-06-29 19:17:06.720  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Postoji password
+2022-06-29 19:17:06.755  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara

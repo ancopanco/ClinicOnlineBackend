@@ -1,5 +1,6 @@
 package com.example.cliniconlinebackend.controllers;
 
+import com.example.cliniconlinebackend.entities.Clinic;
 import com.example.cliniconlinebackend.entities.Doctor;
 import com.example.cliniconlinebackend.entities.Patient;
 import com.example.cliniconlinebackend.repositories.DoctorRepository;
@@ -85,6 +86,12 @@ public class DoctorController {
             if(allDoctors.get(i).getId_doctor()==(id)) return allDoctors.get(i);
         }
         return null;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/doctors",method = RequestMethod.GET)
+    public List<Doctor> getAllClinics(){
+        return repository.findAll();
     }
 
 }
