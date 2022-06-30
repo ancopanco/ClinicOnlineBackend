@@ -192,3 +192,527 @@
 2022-06-30 10:46:06.218  INFO 22816 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : maramara123
 2022-06-30 10:46:06.230  INFO 22816 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : Postoji username
 2022-06-30 10:46:06.230  INFO 22816 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 10:52:47.848  INFO 22816 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:52:47.850  INFO 22816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 10:52:47.862  INFO 22816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 10:52:53.879  INFO 15308 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 15308 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 10:52:53.885  INFO 15308 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 10:52:54.798  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 10:52:54.853  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 6 JPA repository interfaces.
+2022-06-30 10:52:55.332  INFO 15308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 10:52:55.339  INFO 15308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 10:52:55.340  INFO 15308 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 10:52:55.471  INFO 15308 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 10:52:55.471  INFO 15308 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1486 ms
+2022-06-30 10:52:55.645  INFO 15308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 10:52:55.897  INFO 15308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 10:52:55.942  INFO 15308 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 10:52:55.977  INFO 15308 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 10:52:56.108  INFO 15308 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 10:52:56.202  INFO 15308 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 10:52:56.615  INFO 15308 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 10:52:56.622  INFO 15308 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:52:57.041  WARN 15308 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 10:52:57.770  INFO 15308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 10:52:57.781  INFO 15308 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.677 seconds (JVM running for 5.859)
+2022-06-30 10:54:25.964  INFO 15308 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 10:54:25.966  INFO 15308 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 10:54:25.967  INFO 15308 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-30 10:54:26.160  INFO 15308 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 10:54:31.205  INFO 15308 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : maramara123
+2022-06-30 10:54:31.215  INFO 15308 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 10:54:31.215  INFO 15308 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 10:54:31.274  INFO 15308 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 10:56:10.763  INFO 15308 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 11:15:39.554  INFO 15308 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 11:16:12.268  INFO 15308 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 11:17:07.793  INFO 15308 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 11:17:57.292  INFO 15308 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 11:18:56.849  INFO 15308 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 11:19:37.757  INFO 15308 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 11:23:11.043  INFO 15308 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:23:11.057  INFO 15308 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 11:23:11.083  INFO 15308 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 11:23:17.819  INFO 376 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 376 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 11:23:17.824  INFO 376 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 11:23:18.648  INFO 376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 11:23:18.722  INFO 376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2022-06-30 11:23:19.316  INFO 376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 11:23:19.324  INFO 376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 11:23:19.325  INFO 376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 11:23:19.454  INFO 376 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 11:23:19.455  INFO 376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1569 ms
+2022-06-30 11:23:19.699  INFO 376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 11:23:19.979  INFO 376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 11:23:20.032  INFO 376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 11:23:20.079  INFO 376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 11:23:20.246  INFO 376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 11:23:20.372  INFO 376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 11:23:20.892  INFO 376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 11:23:20.901  INFO 376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:23:21.392  WARN 376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 11:23:22.276  INFO 376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 11:23:22.287  INFO 376 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 5.077 seconds (JVM running for 6.536)
+2022-06-30 11:23:32.380  INFO 376 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 11:23:32.382  INFO 376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 11:23:32.383  INFO 376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-30 11:23:32.585  INFO 376 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 11:25:18.401  INFO 376 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 11:26:33.609  INFO 376 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 11:27:29.946  INFO 376 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 11:34:34.715  INFO 376 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 11:50:32.620  INFO 376 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:50:32.623  INFO 376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 11:50:32.637  INFO 376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 11:50:37.585  INFO 19856 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 19856 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 11:50:37.588  INFO 19856 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 11:50:38.284  INFO 19856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 11:50:38.337  INFO 19856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 6 JPA repository interfaces.
+2022-06-30 11:50:38.801  INFO 19856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 11:50:38.808  INFO 19856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 11:50:38.808  INFO 19856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 11:50:38.951  INFO 19856 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 11:50:38.951  INFO 19856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2022-06-30 11:50:39.118  INFO 19856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 11:50:39.445  INFO 19856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 11:50:39.488  INFO 19856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 11:50:39.523  INFO 19856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 11:50:39.651  INFO 19856 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 11:50:39.745  INFO 19856 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 11:50:40.188  INFO 19856 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 11:50:40.198  INFO 19856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:50:40.598  WARN 19856 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 11:50:41.318  INFO 19856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 11:50:41.326  INFO 19856 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.225 seconds (JVM running for 5.21)
+2022-06-30 11:50:47.250  INFO 19856 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 11:50:47.252  INFO 19856 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 11:50:47.253  INFO 19856 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-30 11:50:47.444  INFO 19856 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : 2
+2022-06-30 11:50:47.445  INFO 19856 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : 1
+2022-06-30 11:51:20.032  INFO 19856 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:51:20.036  INFO 19856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 11:51:20.074  INFO 19856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 11:51:25.911  INFO 18168 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 18168 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 11:51:25.915  INFO 18168 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 11:51:26.555  INFO 18168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 11:51:26.621  INFO 18168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 6 JPA repository interfaces.
+2022-06-30 11:51:27.090  INFO 18168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 11:51:27.097  INFO 18168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 11:51:27.097  INFO 18168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 11:51:27.213  INFO 18168 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 11:51:27.213  INFO 18168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+2022-06-30 11:51:27.416  INFO 18168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 11:51:27.644  INFO 18168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 11:51:27.689  INFO 18168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 11:51:27.727  INFO 18168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 11:51:27.865  INFO 18168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 11:51:27.956  INFO 18168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 11:51:28.394  INFO 18168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 11:51:28.402  INFO 18168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:51:28.798  WARN 18168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 11:51:29.569  INFO 18168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 11:51:29.578  INFO 18168 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.226 seconds (JVM running for 5.493)
+2022-06-30 11:51:34.310  INFO 18168 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 11:51:34.312  INFO 18168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 11:51:34.314  INFO 18168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-30 11:51:34.491  INFO 18168 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Baza2
+2022-06-30 11:51:34.491  INFO 18168 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : parametar2
+2022-06-30 11:51:34.491  INFO 18168 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Baza1
+2022-06-30 11:51:34.491  INFO 18168 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : parametar2
+2022-06-30 11:53:15.837  INFO 18168 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:53:15.840  INFO 18168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 11:53:15.856  INFO 18168 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 11:53:21.610  INFO 15620 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 15620 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 11:53:21.615  INFO 15620 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 11:53:22.318  INFO 15620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 11:53:22.381  INFO 15620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+2022-06-30 11:53:22.937  INFO 15620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 11:53:22.945  INFO 15620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 11:53:22.946  INFO 15620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 11:53:23.079  INFO 15620 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 11:53:23.079  INFO 15620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1409 ms
+2022-06-30 11:53:23.276  INFO 15620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 11:53:23.536  INFO 15620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 11:53:23.585  INFO 15620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 11:53:23.621  INFO 15620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 11:53:23.757  INFO 15620 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 11:53:23.863  INFO 15620 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 11:53:24.362  INFO 15620 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 11:53:24.370  INFO 15620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:53:24.813  WARN 15620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 11:53:25.580  INFO 15620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 11:53:25.589  INFO 15620 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.537 seconds (JVM running for 5.844)
+2022-06-30 11:53:34.168  INFO 15620 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 11:53:34.170  INFO 15620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 11:53:34.171  INFO 15620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-30 11:53:34.452  INFO 15620 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : Baza1
+2022-06-30 11:53:34.452  INFO 15620 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : parametar2
+2022-06-30 11:55:36.486  INFO 15620 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Baza1
+2022-06-30 11:55:36.486  INFO 15620 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : parametar2
+2022-06-30 11:57:38.223  INFO 15620 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:57:38.225  INFO 15620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 11:57:38.239  INFO 15620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 11:57:43.965  INFO 16848 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 16848 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 11:57:43.969  INFO 16848 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 11:57:44.610  INFO 16848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 11:57:44.667  INFO 16848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 6 JPA repository interfaces.
+2022-06-30 11:57:45.140  INFO 16848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 11:57:45.146  INFO 16848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 11:57:45.147  INFO 16848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 11:57:45.270  INFO 16848 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 11:57:45.271  INFO 16848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1244 ms
+2022-06-30 11:57:45.455  INFO 16848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 11:57:45.686  INFO 16848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 11:57:45.737  INFO 16848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 11:57:45.773  INFO 16848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 11:57:45.918  INFO 16848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 11:57:46.012  INFO 16848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 11:57:46.447  INFO 16848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 11:57:46.454  INFO 16848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 11:57:46.861  WARN 16848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 11:57:47.579  INFO 16848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 11:57:47.589  INFO 16848 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.132 seconds (JVM running for 5.234)
+2022-06-30 11:57:53.903  INFO 16848 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 11:57:53.904  INFO 16848 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 11:57:53.907  INFO 16848 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-30 11:58:03.937  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 11:59:04.162  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 11:59:21.538  INFO 16848 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 11:59:34.797  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 11:59:46.144  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:00:02.919  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 12:00:06.450  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:00:34.520  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:00:40.834  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:00:57.819  INFO 16848 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 12:03:06.693  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:04:44.237  INFO 16848 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 12:04:50.649  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 12:05:06.166  INFO 16848 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 12:06:20.737  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:07:26.924  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:07:29.123  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:07:35.357  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:08:55.334  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 12:09:05.010  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 12:09:08.028  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:09:26.630  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 12:10:40.719  INFO 16848 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 12:12:08.132  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:12:43.764  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:13:45.956  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 12:14:48.098  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:14:56.861  INFO 16848 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 12:15:07.251  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:15:29.938  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:15:38.736  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:18:05.372  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:18:11.823  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 12:18:15.244  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:19:24.994  INFO 16848 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 12:19:54.952  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:20:16.793  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:20:28.302  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:21:30.126  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:21:50.091  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:22:38.196  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:22:46.413  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:23:04.579  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:23:29.471  INFO 16848 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 12:26:21.385  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 12:29:23.758  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:29:25.055  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:30:05.230  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:30:18.512  INFO 16848 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 12:31:35.087  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 12:32:01.807  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 12:32:20.327  INFO 16848 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 12:32:56.116  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 12:33:58.808  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:34:10.291  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:34:24.572  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:34:45.147  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:34:51.840  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:35:04.783  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:36:02.521  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:36:35.195  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:36:41.496  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:36:54.282  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:37:31.371  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:37:46.426  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:39:11.654  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:39:36.009  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:39:49.273  INFO 16848 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 12:40:45.072  INFO 16848 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 12:40:56.902  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:41:05.767  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:42:42.199  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 12:43:38.712  INFO 16848 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 12:44:06.623  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 12:44:30.872  INFO 16848 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 12:45:32.591  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:45:59.466  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 12:46:24.342  INFO 16848 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 12:48:08.791  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:48:28.752  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : maramara123
+2022-06-30 12:48:28.766  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 12:48:28.766  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 12:48:28.821  INFO 16848 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 12:48:34.026  INFO 16848 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 12:48:34.040  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 12:48:34.052  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 12:48:43.260  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : maramara123
+2022-06-30 12:48:43.263  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 12:48:43.263  INFO 16848 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 12:48:43.283  INFO 16848 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 12:48:54.113  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 12:49:27.137  INFO 16848 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 13:06:26.516  INFO 16848 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 13:18:38.312  INFO 16848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 13:18:38.355  INFO 16848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 13:18:38.364  INFO 16848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 13:18:44.167  INFO 21268 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 21268 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 13:18:44.172  INFO 21268 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 13:18:45.039  INFO 21268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 13:18:45.112  INFO 21268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2022-06-30 13:18:45.654  INFO 21268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 13:18:45.662  INFO 21268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 13:18:45.662  INFO 21268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 13:18:45.787  INFO 21268 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 13:18:45.788  INFO 21268 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1547 ms
+2022-06-30 13:18:45.989  INFO 21268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 13:18:46.231  INFO 21268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 13:18:46.279  INFO 21268 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 13:18:46.318  INFO 21268 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 13:18:46.443  INFO 21268 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 13:18:46.570  INFO 21268 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 13:18:47.064  INFO 21268 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 13:18:47.073  INFO 21268 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 13:18:47.520  WARN 21268 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 13:18:48.533  INFO 21268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 13:18:48.547  INFO 21268 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 5.014 seconds (JVM running for 6.826)
+2022-06-30 13:19:04.209  INFO 21268 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 13:19:04.211  INFO 21268 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 13:19:04.215  INFO 21268 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-06-30 13:19:04.669  INFO 21268 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 13:19:10.836  INFO 21268 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 13:21:59.619  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : maramara123
+2022-06-30 13:21:59.758  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 13:21:59.758  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 13:21:59.801  INFO 21268 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 13:24:52.210  INFO 21268 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 13:25:32.478  INFO 21268 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 13:27:03.988  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 13:27:37.240  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 13:28:57.685  INFO 21268 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 13:29:39.022  INFO 21268 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : maramara123
+2022-06-30 13:29:39.124  INFO 21268 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 13:29:39.124  INFO 21268 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 13:29:39.158  INFO 21268 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 13:30:35.199  INFO 21268 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 13:32:33.474  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 13:37:58.074  INFO 21268 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 13:38:49.216  INFO 21268 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 13:38:55.632  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 13:41:29.515  INFO 21268 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 13:42:47.281  INFO 21268 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 13:43:57.957  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 13:44:19.074  INFO 21268 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 13:47:04.705  INFO 21268 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 13:49:38.230  INFO 21268 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 13:51:23.184  INFO 21268 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 13:51:49.180  INFO 21268 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 13:53:39.960  INFO 21268 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 13:55:21.280  INFO 21268 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 13:55:56.586  INFO 21268 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 13:56:31.710  INFO 21268 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 13:57:22.645  INFO 21268 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 13:58:55.496  INFO 21268 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 13:59:37.561  INFO 21268 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 14:00:16.563  INFO 21268 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 14:00:40.863  INFO 21268 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 14:00:53.457  INFO 21268 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 14:01:04.635  INFO 21268 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 14:01:14.444  INFO 21268 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 14:01:23.961  INFO 21268 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 14:01:34.790  INFO 21268 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 14:02:10.615  INFO 21268 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 14:02:28.029  INFO 21268 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 14:02:45.277  INFO 21268 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 14:03:18.010  INFO 21268 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 14:03:37.697  INFO 21268 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 15:07:16.594  WARN 21268 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m27s990ms477µs300ns).
+2022-06-30 15:08:02.445  INFO 21268 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 15:09:49.054  INFO 21268 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 15:10:42.540  INFO 21268 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 15:16:31.968  INFO 21268 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 15:17:27.435  INFO 21268 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 15:18:09.568  INFO 21268 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 15:18:19.837  INFO 21268 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 15:18:38.924  INFO 21268 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 15:20:37.877  INFO 21268 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 15:22:34.943  INFO 21268 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 15:23:10.653  INFO 21268 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 15:25:15.228  INFO 21268 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:25:15.268  INFO 21268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:25:15.284  INFO 21268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:25:24.012  INFO 12332 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 12332 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 15:25:24.016  INFO 12332 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:25:25.101  INFO 12332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:25:25.187  INFO 12332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 6 JPA repository interfaces.
+2022-06-30 15:25:25.865  INFO 12332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:25:25.875  INFO 12332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:25:25.876  INFO 12332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:25:26.028  INFO 12332 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:25:26.029  INFO 12332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1930 ms
+2022-06-30 15:25:26.278  INFO 12332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:25:26.736  INFO 12332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:25:26.793  INFO 12332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:25:26.853  INFO 12332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:25:27.048  INFO 12332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:25:27.194  INFO 12332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 15:25:27.836  INFO 12332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:25:27.847  INFO 12332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:25:28.398  WARN 12332 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:25:29.433  INFO 12332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 15:25:29.445  INFO 12332 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 6.131 seconds (JVM running for 7.8)
+2022-06-30 15:25:50.499  INFO 12332 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 15:25:50.500  INFO 12332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 15:25:50.502  INFO 12332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-30 15:26:27.774  INFO 12332 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:26:27.778  INFO 12332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:26:27.797  INFO 12332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:26:34.041  INFO 19864 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 19864 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 15:26:34.045  INFO 19864 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:26:34.900  INFO 19864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:26:34.968  INFO 19864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 6 JPA repository interfaces.
+2022-06-30 15:26:35.517  INFO 19864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:26:35.526  INFO 19864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:26:35.527  INFO 19864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:26:35.665  INFO 19864 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:26:35.666  INFO 19864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1564 ms
+2022-06-30 15:26:35.873  INFO 19864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:26:36.186  INFO 19864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:26:36.238  INFO 19864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:26:36.279  INFO 19864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:26:36.429  INFO 19864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:26:36.539  INFO 19864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 15:26:37.048  INFO 19864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:26:37.060  INFO 19864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:26:37.558  WARN 19864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:26:38.426  INFO 19864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 15:26:38.436  INFO 19864 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.985 seconds (JVM running for 6.354)
+2022-06-30 15:26:50.590  INFO 19864 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 15:26:50.591  INFO 19864 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 15:26:50.593  INFO 19864 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-30 15:26:50.927  INFO 19864 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 15:28:01.099  INFO 19864 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 15:28:18.540  INFO 19864 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 15:29:08.387  INFO 19864 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 15:29:13.773  INFO 19864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:29:13.776  INFO 19864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:29:13.816  INFO 19864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:29:21.138  INFO 17848 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 17848 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 15:29:21.144  INFO 17848 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:29:22.658  INFO 17848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:29:22.763  INFO 17848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 6 JPA repository interfaces.
+2022-06-30 15:29:23.497  INFO 17848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:29:23.509  INFO 17848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:29:23.509  INFO 17848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:29:23.671  INFO 17848 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:29:23.672  INFO 17848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2378 ms
+2022-06-30 15:29:23.929  INFO 17848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:29:24.308  INFO 17848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:29:24.385  INFO 17848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:29:24.460  INFO 17848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:29:24.672  INFO 17848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:29:24.817  INFO 17848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 15:29:25.551  INFO 17848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:29:25.564  INFO 17848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:29:26.123  WARN 17848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:29:27.325  INFO 17848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 15:29:27.345  INFO 17848 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 6.95 seconds (JVM running for 8.71)
+2022-06-30 15:29:29.584  INFO 17848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:29:29.589  INFO 17848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:29:29.607  INFO 17848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:29:37.167  INFO 20420 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 20420 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 15:29:37.172  INFO 20420 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:29:38.116  INFO 20420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:29:38.218  INFO 20420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 6 JPA repository interfaces.
+2022-06-30 15:29:38.949  INFO 20420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:29:38.958  INFO 20420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:29:38.959  INFO 20420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:29:39.099  INFO 20420 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:29:39.100  INFO 20420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1862 ms
+2022-06-30 15:29:39.317  INFO 20420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:29:39.572  INFO 20420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:29:39.623  INFO 20420 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:29:39.664  INFO 20420 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:29:39.807  INFO 20420 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:29:39.911  INFO 20420 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 15:29:40.445  INFO 20420 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:29:40.454  INFO 20420 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:29:40.922  WARN 20420 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:29:41.771  INFO 20420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 15:29:41.781  INFO 20420 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 5.263 seconds (JVM running for 6.824)
+2022-06-30 15:29:55.448  INFO 20420 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 15:29:55.450  INFO 20420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 15:29:55.451  INFO 20420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-30 15:31:41.901  INFO 20420 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:31:41.904  INFO 20420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:31:41.918  INFO 20420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:31:50.240  INFO 12716 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 12716 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 15:31:50.244  INFO 12716 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:31:51.148  INFO 12716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:31:51.219  INFO 12716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 6 JPA repository interfaces.
+2022-06-30 15:31:51.851  INFO 12716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:31:51.863  INFO 12716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:31:51.863  INFO 12716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:31:52.036  INFO 12716 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:31:52.036  INFO 12716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1721 ms
+2022-06-30 15:31:52.334  INFO 12716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:31:52.795  INFO 12716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:31:52.860  INFO 12716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:31:52.912  INFO 12716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:31:53.099  INFO 12716 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:31:53.229  INFO 12716 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 15:31:53.872  INFO 12716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:31:53.882  INFO 12716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:31:54.564  WARN 12716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:31:55.789  INFO 12716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 15:31:55.803  INFO 12716 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 6.496 seconds (JVM running for 8.096)
+2022-06-30 15:32:29.080  INFO 12716 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 15:32:29.082  INFO 12716 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 15:32:29.085  INFO 12716 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-06-30 15:32:29.493  INFO 12716 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 15:34:04.649  INFO 12716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:34:04.652  INFO 12716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:34:04.670  INFO 12716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:34:11.956  INFO 15816 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 15816 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 15:34:11.960  INFO 15816 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:34:13.074  INFO 15816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:34:13.167  INFO 15816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 6 JPA repository interfaces.
+2022-06-30 15:34:13.858  INFO 15816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:34:13.867  INFO 15816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:34:13.867  INFO 15816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:34:14.017  INFO 15816 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:34:14.017  INFO 15816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1980 ms
+2022-06-30 15:34:14.265  INFO 15816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:34:14.546  INFO 15816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:34:14.600  INFO 15816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:34:14.645  INFO 15816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:34:14.812  INFO 15816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:34:14.929  INFO 15816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 15:34:15.472  INFO 15816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:34:15.483  INFO 15816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:34:15.992  WARN 15816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:34:17.806  INFO 15816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 15:34:17.824  INFO 15816 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 6.666 seconds (JVM running for 8.177)
+2022-06-30 15:34:21.328  INFO 15816 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 15:34:21.329  INFO 15816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 15:34:21.332  INFO 15816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-30 15:34:21.711  INFO 15816 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 15:34:29.163  INFO 15816 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 15:35:36.119  INFO 15816 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 15:36:04.063  INFO 15816 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 15:36:53.914  INFO 15816 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara

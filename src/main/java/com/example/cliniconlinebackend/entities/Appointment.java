@@ -13,7 +13,7 @@ public class Appointment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_appointment;
     private Date date;
-    private Time time;
+    private String time;
     private String service;
     private int canceled;
     private int id_doctor;
@@ -22,7 +22,7 @@ public class Appointment {
 
     public Appointment(){}
 
-    public Appointment(int id_appointment, Date date, Time time, String service, int canceled, int id_doctor, int id_clinic, int id_patient) {
+    public Appointment(int id_appointment, Date date, String time, String service, int canceled, int id_doctor, int id_clinic, int id_patient) {
         this.id_appointment = id_appointment;
         this.date = date;
         this.time = time;
@@ -49,11 +49,11 @@ public class Appointment {
         this.date = date;
     }
 
-    public Time getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(Time time) {
+    public void setTime(String time) {
         this.time = time;
     }
 
