@@ -1,1 +1,194 @@
-2022-06-29 00:41:03.216  WARN 4736 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m5s170ms508µs200ns).
+2022-06-30 08:50:11.930  WARN 2264 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h36m53s700ms429µs100ns).
+2022-06-30 09:53:46.775  WARN 2264 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m313ms237µs900ns).
+2022-06-30 09:56:56.100  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : maramara123
+2022-06-30 09:56:56.153  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 09:56:56.154  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 09:56:56.610  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 09:57:51.017  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 09:57:51.027  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 09:57:51.035  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 09:58:08.103  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : maramara123
+2022-06-30 09:58:08.106  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 09:58:08.106  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 09:58:08.226  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 09:59:29.491  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 10:01:43.763  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 10:03:56.046  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:03:56.060  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:03:56.069  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:04:52.680  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:04:52.694  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:04:52.705  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:10.043  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:10.103  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:10.118  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:14.275  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:14.291  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:14.300  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:20.845  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:20.869  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:20.884  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:28.249  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:28.282  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:05:28.300  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:06:36.576  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:06:36.595  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:06:36.629  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:06:48.951  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:06:48.981  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:06:49.037  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:06:55.698  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:07:00.288  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:07:03.415  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:07:03.425  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:07:10.076  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:07:10.091  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:07:12.177  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:07:12.188  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:08:25.332  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:08:25.378  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:08:25.388  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:08:32.910  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:08:32.924  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:08:32.947  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:14.777  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:14.798  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:14.813  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:19.353  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:19.394  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:19.409  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:26.001  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:26.016  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:26.044  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:32.028  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:32.040  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:32.049  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:37.316  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:37.345  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:37.364  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:48.721  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:48.742  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:48.787  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:53.338  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:53.364  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:09:53.385  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:19.983  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:20.003  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:20.042  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:25.955  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:25.982  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:25.993  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:36.462  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:36.472  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:10:36.480  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:11:48.804  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:11:48.819  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:11:48.829  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:12:01.390  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:12:01.406  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:12:01.498  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:12:44.501  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:12:44.517  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:12:44.527  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:04.869  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:04.878  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:04.887  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:08.143  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:08.153  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:08.160  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:15.648  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:15.676  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:15.689  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:22.674  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:22.684  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:13:22.694  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:14.365  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:14.373  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:14.383  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:36.103  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:36.116  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:36.248  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:47.842  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:47.889  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:47.902  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:53.493  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:53.504  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:53.512  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:56.275  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:56.284  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:56.291  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:57.658  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:57.667  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:14:57.673  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:15:03.152  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:15:03.162  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:15:03.170  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:15:29.677  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : maramara123
+2022-06-30 10:15:30.013  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 10:15:30.013  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 10:15:30.071  INFO 2264 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : mara
+2022-06-30 10:16:19.038  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:16:19.045  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:16:19.054  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:17:26.212  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : maramara123
+2022-06-30 10:17:26.215  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 10:17:26.215  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 10:17:26.351  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 10:18:03.160  INFO 2264 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : mara
+2022-06-30 10:18:06.494  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 10:19:02.628  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : mara
+2022-06-30 10:19:33.997  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 10:20:54.268  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : mara
+2022-06-30 10:20:57.441  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 10:21:11.292  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : maramara123
+2022-06-30 10:21:11.295  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 10:21:11.295  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 10:21:11.345  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : mara
+2022-06-30 10:21:30.297  INFO 2264 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : mara
+2022-06-30 10:22:00.109  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 10:22:13.279  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : maramara123
+2022-06-30 10:22:13.282  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 10:22:13.282  INFO 2264 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 10:22:13.321  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 10:24:40.643  INFO 2264 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:24:40.658  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:24:40.667  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:24:46.320  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:24:46.329  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-06-30 10:25:17.754  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : maramara123
+2022-06-30 10:25:17.884  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 10:25:17.884  INFO 2264 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : Postoji password
+2022-06-30 10:25:17.950  INFO 2264 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : mara
+2022-06-30 10:25:26.594  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 10:28:45.964  INFO 2264 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : mara
+2022-06-30 10:36:35.968  INFO 2264 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : mara
+2022-06-30 10:37:26.507  INFO 2264 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : mara
+2022-06-30 10:44:26.905  INFO 2264 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:44:27.114  INFO 2264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 10:44:27.126  INFO 2264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 10:44:36.705  INFO 22816 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 22816 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-06-30 10:44:36.708  INFO 22816 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 10:44:37.406  INFO 22816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 10:44:37.470  INFO 22816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces.
+2022-06-30 10:44:38.363  INFO 22816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 10:44:38.372  INFO 22816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 10:44:38.372  INFO 22816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 10:44:38.519  INFO 22816 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-06-30 10:44:38.520  INFO 22816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1741 ms
+2022-06-30 10:44:38.682  INFO 22816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 10:44:38.963  INFO 22816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 10:44:39.009  INFO 22816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 10:44:39.054  INFO 22816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 10:44:39.216  INFO 22816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 10:44:39.306  INFO 22816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-30 10:44:39.896  INFO 22816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 10:44:39.908  INFO 22816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 10:44:40.311  WARN 22816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 10:44:41.248  INFO 22816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-06-30 10:44:41.258  INFO 22816 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 5.007 seconds (JVM running for 6.133)
+2022-06-30 10:45:13.676  INFO 22816 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 10:45:13.677  INFO 22816 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-30 10:45:13.679  INFO 22816 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-30 10:46:06.218  INFO 22816 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : maramara123
+2022-06-30 10:46:06.230  INFO 22816 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : Postoji username
+2022-06-30 10:46:06.230  INFO 22816 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : Postoji password
