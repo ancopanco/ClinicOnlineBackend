@@ -6,6 +6,8 @@ import com.example.cliniconlinebackend.repositories.PatientRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -58,4 +60,14 @@ public class PatientController {
         LOGGER.info(repository.findByUsername(username).get(0).getUsername());
         return repository.findByUsername(username).get(0);
     }
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/updatePatient",method = RequestMethod.POST)
+    public Patient updatePatient(@RequestBody Patient patient){
+//        LOGGER.info(repository.findByUsername(username).get(0).getUsername());
+        int rez = repository.updateUser(patient.getAge(),patient.getGender(),patient.getPhone_number(),patient.getPassword(),patient.getFirstname(),
+                patient.getLastname(),patient.getEmail(),patient.getId_patient());
+        return patient;
+    }
+
+
 }
