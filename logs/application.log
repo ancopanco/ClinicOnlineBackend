@@ -2085,3 +2085,51 @@
 2022-07-02 19:11:45.320  INFO 16028 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
 2022-07-02 19:11:45.325  INFO 16028 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
 2022-07-02 19:11:45.335  INFO 16028 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:07.442  INFO 16028 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 19:15:07.445  INFO 16028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-02 19:15:07.454  INFO 16028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-02 19:15:12.592  INFO 5640 --- [main] c.e.c.ClinicOnlineBackendApplication     : Starting ClinicOnlineBackendApplication using Java 11.0.13 on DESKTOP-N20301U with PID 5640 (C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend\target\classes started by Ana in C:\Users\Ana\Desktop\MasterRad\aplikacija\myApp\backend)
+2022-07-02 19:15:12.595  INFO 5640 --- [main] c.e.c.ClinicOnlineBackendApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-07-02 19:15:13.361  INFO 5640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-02 19:15:13.419  INFO 5640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 7 JPA repository interfaces.
+2022-07-02 19:15:13.974  INFO 5640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 19:15:13.981  INFO 5640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 19:15:13.981  INFO 5640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-02 19:15:14.109  INFO 5640 --- [main] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring embedded WebApplicationContext
+2022-07-02 19:15:14.110  INFO 5640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1468 ms
+2022-07-02 19:15:14.282  INFO 5640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-02 19:15:14.521  INFO 5640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-02 19:15:14.565  INFO 5640 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-02 19:15:14.615  INFO 5640 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-02 19:15:14.802  INFO 5640 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-02 19:15:14.906  INFO 5640 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-02 19:15:15.401  INFO 5640 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-02 19:15:15.409  INFO 5640 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-02 19:15:15.945  WARN 5640 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-02 19:15:16.764  INFO 5640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/clinicapi'
+2022-07-02 19:15:16.772  INFO 5640 --- [main] c.e.c.ClinicOnlineBackendApplication     : Started ClinicOnlineBackendApplication in 4.658 seconds (JVM running for 5.631)
+2022-07-02 19:15:29.777  INFO 5640 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/clinicapi]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 19:15:29.779  INFO 5640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 19:15:29.780  INFO 5640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 19:15:30.448  INFO 5640 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.449  INFO 5640 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.449  INFO 5640 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.449  INFO 5640 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.450  INFO 5640 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.449  INFO 5640 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.470  INFO 5640 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.471  INFO 5640 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.471  INFO 5640 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.473  INFO 5640 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.474  INFO 5640 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.484  INFO 5640 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.487  INFO 5640 --- [http-nio-8080-exec-6] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.489  INFO 5640 --- [http-nio-8080-exec-8] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.490  INFO 5640 --- [http-nio-8080-exec-5] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.491  INFO 5640 --- [http-nio-8080-exec-10] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.499  INFO 5640 --- [http-nio-8080-exec-4] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.501  INFO 5640 --- [http-nio-8080-exec-1] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.507  INFO 5640 --- [http-nio-8080-exec-7] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.507  INFO 5640 --- [http-nio-8080-exec-2] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.508  INFO 5640 --- [http-nio-8080-exec-9] c.e.c.controllers.UserController         : broj doktora13
+2022-07-02 19:15:30.510  INFO 5640 --- [http-nio-8080-exec-3] c.e.c.controllers.UserController         : broj doktora13

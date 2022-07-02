@@ -54,5 +54,7 @@ public class AppointmentController {
     @RequestMapping(value = "/cancelAppointment/{id_appointment}",method = RequestMethod.GET)
     public Appointment cancelAppointment(@PathVariable("id_appointment") int id_appointment){
         this.repository.cancelAppointment(id_appointment,1);
+        Appointment a = new Appointment();
+        return  a;
     }
 }
