@@ -79,7 +79,7 @@ public class DoctorController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/doctorById",method = RequestMethod.POST)
-    public Doctor getDoctorByUsername(@RequestBody int id){
+    public Doctor getDoctorById(@RequestBody int id){
         List<Doctor> allDoctors = repository.findAll();
         LOGGER.info("broj doktora" + allDoctors.size());
         for(int i =0; i< allDoctors.size();i++){

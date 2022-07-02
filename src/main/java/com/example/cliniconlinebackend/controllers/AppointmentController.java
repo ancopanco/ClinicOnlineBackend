@@ -22,10 +22,11 @@ public class AppointmentController {
     @RequestMapping(value = "/appointments",method = RequestMethod.GET)
     public List<Appointment> getAllAppointments(){
         List<Appointment> all =  repository.findAll();
-//        for(int i =0; i< all.size();i++){
-//            if(all.get(i).getCanceled()==0) all.remove(all.get(i));
-//        }
-        return all;
+        List<Appointment> novi = new ArrayList<>();
+        for(int i = 0; i< all.size(); i++){
+            if(all.get(i).getCanceled() == 0) novi.add(all.get(i));
+        }
+        return novi;
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
@@ -47,5 +48,11 @@ public class AppointmentController {
     public Appointment saveAppointment(@RequestBody Appointment a){
         repository.save(a);
         return a;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/cancelAppointment/{id_appointment}",method = RequestMethod.GET)
+    public Appointment cancelAppointment(@PathVariable("id_appointment") int id_appointment){
+        this.repository.cancelAppointment(id_appointment,1);
     }
 }
