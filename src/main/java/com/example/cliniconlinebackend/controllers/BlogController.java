@@ -5,10 +5,9 @@ import com.example.cliniconlinebackend.repositories.BlogRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -19,12 +18,24 @@ public class BlogController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/blogs",method = RequestMethod.GET)
     public List<Blog> getAllBlogs(){
         List<Blog> all =  repository.findAll();
+        List<Blog> novi = new ArrayList<>();
         for(int i =0; i< all.size();i++){
-            if(all.get(i).getAccepted()==0) all.remove(all.get(i));
+            if(all.get(i).getAccepted()==1) {
+                novi.add(all.get(i));
+            }
         }
-        return all;
+        return novi;
     }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/saveBlog",method = RequestMethod.POST)
+    public Blog saveBlog(@RequestBody Blog b){
+        repository.save(b);
+        return b;
+    }
+
 }

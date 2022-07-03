@@ -22,11 +22,11 @@ public class AppointmentController {
     @RequestMapping(value = "/appointments",method = RequestMethod.GET)
     public List<Appointment> getAllAppointments(){
         List<Appointment> all =  repository.findAll();
-        List<Appointment> novi = new ArrayList<>();
-        for(int i = 0; i< all.size(); i++){
-            if(all.get(i).getCanceled() == 0) novi.add(all.get(i));
-        }
-        return novi;
+//        List<Appointment> novi = new ArrayList<>();
+//        for(int i = 0; i< all.size(); i++){
+//            if(all.get(i).getCanceled() == 0) novi.add(all.get(i));
+//        }
+        return all;
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
@@ -36,11 +36,38 @@ public class AppointmentController {
         List<Appointment> forDoc = new ArrayList<>();
         for(int i =0; i< all.size();i++){
 
-            if(all.get(i).getId_doctor() == id_doctor) {
+            if(all.get(i).getId_doctor() == id_doctor && all.get(i).getCanceled()==0) {
                 forDoc.add(all.get(i));
             }
         }
         return forDoc;
+    }
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/canceledAppointmentsByDoctor/{id_doctor}",method = RequestMethod.GET)
+    public List<Appointment> getCanceledAppointmentsByDoctor(@PathVariable("id_doctor") int id_doctor){
+        List<Appointment> all =  repository.findAll();
+        List<Appointment> forDoc = new ArrayList<>();
+        for(int i =0; i< all.size();i++){
+
+            if(all.get(i).getId_doctor() == id_doctor && all.get(i).getCanceled()==1) {
+                forDoc.add(all.get(i));
+            }
+        }
+        return forDoc;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/appointmentByPatient/{id_patient}",method = RequestMethod.GET)
+    public List<Appointment> getAppointmentsByPatient(@PathVariable("id_patient") int id_patient){
+        List<Appointment> all =  repository.findAll();
+        List<Appointment> foPat = new ArrayList<>();
+        for(int i =0; i< all.size();i++){
+
+            if(all.get(i).getId_patient() == id_patient && all.get(i).getCanceled()==0) {
+                foPat.add(all.get(i));
+            }
+        }
+        return foPat;
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
@@ -57,4 +84,11 @@ public class AppointmentController {
         Appointment a = new Appointment();
         return  a;
     }
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/deleteAppointment",method = RequestMethod.POST)
+    public Appointment deleteAppointment(@RequestBody int id){
+        repository.deleteById(id);
+        return null;
+    }
+
 }

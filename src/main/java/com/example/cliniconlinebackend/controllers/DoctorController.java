@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -89,9 +90,26 @@ public class DoctorController {
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/updateDoctor",method = RequestMethod.POST)
+    public Doctor updateDoctor(@RequestBody Doctor doctor){
+//        LOGGER.info(repository.findByUsername(username).get(0).getUsername());
+        int rez = repository.updateDoctor(doctor.getAge(),doctor.getGender(),doctor.getPhone_number(),doctor.getPassword(),doctor.getFirstname(),
+                doctor.getLastname(),doctor.getEmail(),doctor.getSpecialization(),doctor.getBiography(),doctor.getAccepted(), doctor.getId_clinic(), doctor.getId_doctor());
+        return doctor;
+    }
+
+
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/doctors",method = RequestMethod.GET)
-    public List<Doctor> getAllClinics(){
-        return repository.findAll();
+    public List<Doctor> getAllDoctors(){
+        List<Doctor> all = repository.findAll();
+        List< Doctor> novi = new ArrayList<>();
+        for(int i = 0; i<all.size(); i++){
+            if(all.get(i).getAccepted()==1){
+                novi.add(all.get(i));
+            }
+        }
+        return novi;
     }
 
 }

@@ -1,5 +1,6 @@
 package com.example.cliniconlinebackend.controllers;
 
+import com.example.cliniconlinebackend.entities.Clinic;
 import com.example.cliniconlinebackend.entities.Patient;
 import com.example.cliniconlinebackend.entities.User;
 import com.example.cliniconlinebackend.repositories.PatientRepository;
@@ -67,6 +68,16 @@ public class PatientController {
         int rez = repository.updateUser(patient.getAge(),patient.getGender(),patient.getPhone_number(),patient.getPassword(),patient.getFirstname(),
                 patient.getLastname(),patient.getEmail(),patient.getId_patient());
         return patient;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/patientById/{id}",method = RequestMethod.GET)
+    public Patient getPatientById(@PathVariable("id") int id){
+        List<Patient> allPat = repository.findAll();
+        for(int i = 0; i< allPat.size();i++){
+            if(allPat.get(i).getId_patient() ==id ) return allPat.get(i);
+        }
+        return null;
     }
 
 

@@ -1,5 +1,6 @@
 package com.example.cliniconlinebackend.controllers;
 
+import com.example.cliniconlinebackend.entities.Appointment;
 import com.example.cliniconlinebackend.entities.Patient;
 import com.example.cliniconlinebackend.entities.Report;
 import com.example.cliniconlinebackend.repositories.ReportRepository;
@@ -29,5 +30,12 @@ public class ReportController {
             if(all.get(i).getId_patient() == id_patient) forPat.add(all.get(i));
         }
         return forPat;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/saveReport",method = RequestMethod.POST)
+    public Report saveAppointment(@RequestBody Report r){
+        repository.save(r);
+        return r;
     }
 }
