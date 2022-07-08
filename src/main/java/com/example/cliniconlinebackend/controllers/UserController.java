@@ -1,5 +1,6 @@
 package com.example.cliniconlinebackend.controllers;
 
+import com.example.cliniconlinebackend.entities.Doctor;
 import com.example.cliniconlinebackend.entities.Patient;
 import com.example.cliniconlinebackend.entities.User;
 import com.example.cliniconlinebackend.repositories.UserRepository;
@@ -78,5 +79,19 @@ public class UserController {
 
         repository.save(user);
         return user;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/deleteUser",method = RequestMethod.POST)
+    public Doctor deleteUser(@RequestBody String username){
+       List<User> users = repository.findAll();
+       for(int i = 0; i< users.size(); i++){
+           if(users.get(i).getUsername().equals(username)){
+
+               this.repository.deleteById(users.get(i).getId_user());
+               break;
+           }
+       }
+       return null;
     }
 }

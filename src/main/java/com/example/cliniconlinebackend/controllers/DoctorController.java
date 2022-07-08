@@ -1,5 +1,6 @@
 package com.example.cliniconlinebackend.controllers;
 
+import com.example.cliniconlinebackend.entities.Appointment;
 import com.example.cliniconlinebackend.entities.Clinic;
 import com.example.cliniconlinebackend.entities.Doctor;
 import com.example.cliniconlinebackend.entities.Patient;
@@ -110,6 +111,26 @@ public class DoctorController {
             }
         }
         return novi;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/zahtevi",method = RequestMethod.GET)
+    public List<Doctor> zahtevi(){
+        List<Doctor> all = repository.findAll();
+        List< Doctor> novi = new ArrayList<>();
+        for(int i = 0; i<all.size(); i++){
+            if(all.get(i).getAccepted()==0){
+                novi.add(all.get(i));
+            }
+        }
+        return novi;
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/deleteDoctor",method = RequestMethod.POST)
+    public Doctor deleteDoctor(@RequestBody int id){
+        repository.deleteById(id);
+        return null;
     }
 
 }
