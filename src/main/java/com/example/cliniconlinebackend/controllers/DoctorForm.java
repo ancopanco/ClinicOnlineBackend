@@ -13,6 +13,7 @@ public class DoctorForm {
     private String specialization;
     private String biography;
     private int id_clinic;
+    private String clinic_name;
 
     public int getId_clinic() {
         return id_clinic;
@@ -110,4 +111,11 @@ public class DoctorForm {
         this.biography = biography;
     }
 
+    public String getClinic_name() {
+        return clinic_name;
+    }
+
+    public void setClinic_name(String clinic_name) {
+        this.clinic_name = clinic_name;
+    }
 }

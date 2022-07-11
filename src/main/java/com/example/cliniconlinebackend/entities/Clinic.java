@@ -14,13 +14,15 @@ public class Clinic {
     private String location;
     private String contact;
     private String description;
+    private int obrisana;
 
-    public Clinic(int id_clinic, String name, String location, String contact, String description) {
+    public Clinic(int id_clinic, String name, String location, String contact, String description, int obrisana) {
         this.id_clinic = id_clinic;
         this.name = name;
         this.location = location;
         this.contact = contact;
         this.description = description;
+        this.obrisana = obrisana;
     }
     public Clinic() {}
     public int getId_clinic() {
@@ -61,5 +63,13 @@ public class Clinic {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public int getObrisana() {
+        return obrisana;
+    }
+
+    public void setObrisana(int obrisana) {
+        this.obrisana = obrisana;
     }
 }

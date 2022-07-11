@@ -1,9 +1,6 @@
 package com.example.cliniconlinebackend.controllers;
 
-import com.example.cliniconlinebackend.entities.Appointment;
-import com.example.cliniconlinebackend.entities.Clinic;
-import com.example.cliniconlinebackend.entities.Doctor;
-import com.example.cliniconlinebackend.entities.Patient;
+import com.example.cliniconlinebackend.entities.*;
 import com.example.cliniconlinebackend.repositories.DoctorRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,7 +34,7 @@ public class DoctorController {
         String user_type = doctorForm.getUser_type();
         String specialization = doctorForm.getSpecialization();
         String biography = doctorForm.getBiography();
-
+        String clinic_name = doctorForm.getClinic_name();
         int id_clinic = doctorForm.getId_clinic();
 
         List<Doctor> doctorBaza = repository.findByUsername(username);
@@ -62,6 +59,8 @@ public class DoctorController {
         doctor.setSpecialization(specialization);
         doctor.setAccepted(0);
         doctor.setId_clinic(id_clinic);
+        doctor.setClinic_name(clinic_name);
+        doctor.setObrisan(0);
         repository.save(doctor);
         return doctor;
     }
@@ -74,7 +73,7 @@ public class DoctorController {
         List<Doctor> allDoctors = repository.findAll();
         LOGGER.info("broj doktora" + allDoctors.size());
         for(int i =0; i< allDoctors.size();i++){
-            if(allDoctors.get(i).getUsername().equals(username)) return allDoctors.get(i);
+            if(allDoctors.get(i).getUsername().equals(username) && allDoctors.get(i).getObrisan()!=1) return allDoctors.get(i);
         }
         return null;
     }
@@ -85,7 +84,7 @@ public class DoctorController {
         List<Doctor> allDoctors = repository.findAll();
         LOGGER.info("broj doktora" + allDoctors.size());
         for(int i =0; i< allDoctors.size();i++){
-            if(allDoctors.get(i).getId_doctor()==(id)) return allDoctors.get(i);
+            if(allDoctors.get(i).getId_doctor()==(id) && allDoctors.get(i).getObrisan()!=1) return allDoctors.get(i);
         }
         return null;
     }
@@ -99,6 +98,13 @@ public class DoctorController {
         return doctor;
     }
 
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/updateObrisan",method = RequestMethod.POST)
+    public Doctor updateObrisan(@RequestBody Doctor d){
+        int rez = repository.updateObrisan(d.getId_doctor());
+        return d;
+    }
+
 
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/doctors",method = RequestMethod.GET)
@@ -106,12 +112,13 @@ public class DoctorController {
         List<Doctor> all = repository.findAll();
         List< Doctor> novi = new ArrayList<>();
         for(int i = 0; i<all.size(); i++){
-            if(all.get(i).getAccepted()==1){
+            if(all.get(i).getAccepted()==1 && all.get(i).getObrisan()!=1){
                 novi.add(all.get(i));
             }
         }
         return novi;
     }
+
 
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/zahtevi",method = RequestMethod.GET)
@@ -119,7 +126,7 @@ public class DoctorController {
         List<Doctor> all = repository.findAll();
         List< Doctor> novi = new ArrayList<>();
         for(int i = 0; i<all.size(); i++){
-            if(all.get(i).getAccepted()==0){
+            if(all.get(i).getAccepted()==0 && all.get(i).getObrisan()!=1){
                 novi.add(all.get(i));
             }
         }
