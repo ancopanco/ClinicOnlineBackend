@@ -18,15 +18,15 @@ public class Patient {
     private String gender;
     private String phone_number;
     private String user_type;
-    private int User_id_user;
+//    private int User_id_user;
 
-    public int getUser_id_user() {
-        return User_id_user;
-    }
-
-    public void setUser_id_user(int user_id_user) {
-        User_id_user = user_id_user;
-    }
+//    public int getUser_id_user() {
+//        return User_id_user;
+//    }
+//
+//    public void setUser_id_user(int user_id_user) {
+//        User_id_user = user_id_user;
+//    }
 
     public Patient(){}
 

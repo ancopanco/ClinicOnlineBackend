@@ -50,7 +50,7 @@ public class PatientController {
         patient.setGender(gender);
         patient.setPhone_number(phone_number);
         patient.setUser_type(user_type);
-        patient.setUser_id_user(1);
+//        patient.setUser_id_user(1);
         repository.save(patient);
         return patient;
     }
